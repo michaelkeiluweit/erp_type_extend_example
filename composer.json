@@ -1,0 +1,15 @@
+{
+    "name":        "oxid-support/example",
+    "description": "example",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop"
+    ],
+    "autoload":    {
+        "psr-4": {
+            "OxidSupport\\Example\\": "../../../source/modules/oxid-support/example"
+        }
+    }
+}
