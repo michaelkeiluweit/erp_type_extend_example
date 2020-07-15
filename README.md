@@ -15,7 +15,7 @@ Save and exit.
 mkdir repo
 cd repo/
 git clone https://github.com/michaelkeiluweit/erp_type_extend_example.git
-
+cd ..
 composer config repositories.oxs/examplemodule path repo/erp_type_extend_example/
 composer require oxid-support/example
 ```
