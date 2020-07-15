@@ -32,6 +32,7 @@ $aModule = [
     'url'         => '',
     'email'       => '',
     'extend'      => [
-        'oxerptype_article'  => \OxidSupport\Example\Article::class
+        'oxerptype_article'  => \OxidSupport\Example\Article::class,
+        'oxerpsoapgateway' => \OxidSupport\Example\ErpSoapGateway::class,
     ]
 ];
