@@ -4,7 +4,7 @@
 namespace OxidSupport\Example;
 
 
-class Article extends Product_parent
+class Article extends Article_parent
 {
     protected $additionalFields = [
         'MYMCOLUMNA' => 'MYMCOLUMNA',
